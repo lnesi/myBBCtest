@@ -1,0 +1,30 @@
+{
+  "name": "mybbctest",
+  "version": "1.0.0",
+  "description": "My BBC Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnesi/myBBCtest.git"
+  },
+  "author": "Luis Nesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnesi/myBBCtest/issues"
+  },
+  "homepage": "https://github.com/lnesi/myBBCtest#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
